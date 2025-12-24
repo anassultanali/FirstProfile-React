@@ -13,7 +13,7 @@ export const ProjectsSection = () => {
       image: "/projects/project1.png",
       tags: ["Bootstrab"],
       demoUrl: "https://anassultanali.github.io/Mohamed-Ali-Club/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/anassultanali/Mohamed-Ali-Club",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ export const ProjectsSection = () => {
       image: "/projects/project2.png",
       tags: ["Tailwind"],
       demoUrl: "https://anassultanali.github.io/Landing_page_tailwind/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/anassultanali/Landing_page_tailwind",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ export const ProjectsSection = () => {
       image: "/projects/project3.png",
       tags: ["React", "Tailwind"],
       demoUrl: "https://moviesrecommendation1.netlify.app/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/anassultanali/React-Movies-Recommendation",
     },
   ];
 
@@ -101,7 +101,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/anassultanali"
           >
             {t("projects.btn")} {lang === "en" ? <ArrowRight size={16} /> : <ArrowLeft size={16}/>}
           </a>
