@@ -125,7 +125,7 @@ export const Navbar = () => {
                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >
-                {item.name}
+                {t(`navbar.${item.name}`)}
               </a>
             ))}
           </div>
