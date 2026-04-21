@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 @theme {
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
@@ -98,8 +97,10 @@
 
   body {
     @apply bg-background text-foreground transition-colors duration-300;
-    font-feature-settings: "rlig" 1, "calt" 1;
-    font-family:  sans-serif;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+    font-family: "Cairo", sans-serif;
   }
 }
 
