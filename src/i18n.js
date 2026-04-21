@@ -118,7 +118,7 @@ i18n.use(initReactI18next).init({
           welcome: "مرحباً، أنا",
           fName: "أنس",
           lName: "سلطان👋",
-          subtitles: `مطوّر برمجيات أبني مواقع ويب حديثة باستخدام React ⚛️ و Laravel 🛠️   `,
+          subtitles: ` مطور مواقع إلكترونية ومبتكر تقنيات، أبدع تجارب ويب رائعة باستخدام التقنيات الحديثة. أجد حلول ابداعية للمشاكل المعقدة، وأحرص على تعلم التقنيات والأساليب الجديدة للبقاء في طليعة المشهد المتطور باستمرار للويب.`,
           heroBtn: "عرض أعمالي",
           scroll: "اكتشف المزيد",
         },
@@ -199,8 +199,8 @@ i18n.use(initReactI18next).init({
       },
     },
   },
-  lng: "en",
-  fallbackLng: "en",
+  lng: "ar",
+  fallbackLng: "ar",
   interpolation: { escspeValue: false },
 });
 
